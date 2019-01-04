@@ -1,0 +1,52 @@
+.hidden {
+    visibility: hidden;
+}
+
+.navbar.bg-primary {
+    /* background: linear-gradient(to bottom right, #cbb677,#450084) !important; */
+    background: linear-gradient(to bottom right, #450084, 75%,#cbb677) !important;
+}
+
+.navbar-dark .navbar-brand {
+    /* color: #cbb677; */
+    font-family: Arvo;
+}
+
+.dropzone {
+    border: 2px dashed #450084;
+    border-radius: 5px;
+    background: white;
+    height: calc(100vh - 56px);
+    margin-top: 56px;
+}
+
+.preview-wrapper {
+    display: block;
+    position: relative;
+}
+.dropzone .dz-preview {
+    display: none;
+}
+
+.navbar-collapse {
+    margin-right: 84px;
+}
+
+.navbar-dark .navbar-text {
+    color: white;
+}
+
+#canvas {
+    /* display: block; */
+    position: absolute;
+}
+
+.download-message{
+    position: absolute;
+    background-color: black;
+    color: white;
+}
+
+.removed {
+    display:none;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/dropzone/dist/dropzone.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Madi-fy</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary fixed-top navbar-expand-md">
+        <a class="navbar-brand" href="#">Madi-fy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <span class="navbar-text text-center w-100">
+                Madi-fy your image by clicking or dropping it below.
+            </span>
+            <span class="navbar-text text-center w-100 removed">
+                Click on your madi-fyed image to download it, or madi-fy a new image by clicking or dropping it below
+            </span>
+            <!-- <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul> -->
+        </div>
+    </nav>
+
+    
+    <!-- <div class="editor-buttons"> -->
+        <form id="my-awesome-dropzone" class="dropzone dz-clickable" action="/dev/null">
+            <div class="preview-wrapper hidden mx-auto">
+                <canvas id="canvas" class="mx-auto"></canvas>
+                <p class="download-message">Click to save</p>
+            </div>
+            <!-- <label for="upload-file">Upload a Picture</label> -->
+            <input class="hidden dz-message" type="file" id="upload-file" placeholder="Upload a Picture" />
+            <!-- <button id="download-btn">Download Image</button> -->
+        </form>
+        <!-- <br /> -->
+        <!-- </div> -->
+        
+    
+    <script src="node_modules/caman/dist/caman.min.js"></script>
+    <script src="node_modules/@jmu-cs/customscale-camanjs-filter/index.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/dropzone/dist/min/dropzone.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

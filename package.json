@@ -1,0 +1,22 @@
+{
+  "name": "madify",
+  "version": "1.0.0",
+  "description": "Apply the \"Madi-fy\" (as in James Madison University) filter to the user's image.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.cs.jmu.edu:10022/lablablab/madify.git"
+  },
+  "author": "Michael Stewart",
+  "license": "ISC",
+  "dependencies": {
+    "@jmu-cs/customscale-camanjs-filter": "^1.0.0",
+    "bootstrap": "^4.1.3",
+    "caman": "^4.1.2",
+    "dropzone": "^5.5.1",
+    "jquery": "^3.3.1"
+  }
+}
