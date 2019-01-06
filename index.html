@@ -31,27 +31,22 @@
             </ul>
         </div>
     </nav>
-
     
-    <!-- <div class="editor-buttons"> -->
-        <form id="my-awesome-dropzone" class="dropzone dz-clickable" action="/dev/null">
-            <div class="preview-wrapper hidden mx-auto">
-                <canvas id="canvas" class="mx-auto"></canvas>
-                <p class="download-message">Click to save</p>
-            </div>
-            <!-- <label for="upload-file">Upload a Picture</label> -->
-            <input class="hidden dz-message" type="file" id="upload-file" placeholder="Upload a Picture" />
-            <!-- <button id="download-btn">Download Image</button> -->
-        </form>
-        <!-- <br /> -->
-        <!-- </div> -->
-        
+    <form id="my-awesome-dropzone" class="dropzone dz-clickable" action="/dev/null">
+        <div class="preview-wrapper hidden mx-auto">
+            <canvas id="canvas" class="mx-auto"></canvas>
+            <p class="download-message">Click to save</p>
+        </div>
+
+        <input class="hidden dz-message" type="file" id="upload-file" placeholder="Upload a Picture" />
+    </form>
     
     <script src="node_modules/caman/dist/caman.min.js"></script>
     <script src="node_modules/@jmu-cs/customscale-camanjs-filter/index.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/dropzone/dist/min/dropzone.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/face-api.js/dist/face-api.min.js"></script>
     <script src="js/index.js"></script>
 </body>
 </html>
