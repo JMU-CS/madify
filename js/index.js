@@ -16,8 +16,8 @@ Dropzone.options.myAwesomeDropzone = {
 }
 
 const filters = [
-  camanFilter,
-  faceReplaceFilter
+  faceReplaceFilter,
+  camanFilter
 ]
 
 function initDropzone () {
@@ -58,7 +58,6 @@ async function camanFilter () {
 
 async function faceReplaceFilter () {
   const detections = await faceapi.detectAllFaces(canvas)
-  faceapi.drawDetection(canvas, detections, { withScore: false })
   faces = detections.map(d => d.box)
   faces.forEach(drawDukeDog)
 }
